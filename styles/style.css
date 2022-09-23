@@ -147,6 +147,10 @@ a {
 }
 .item-img {
     vertical-align: bottom;
+    transition: all .3s;
+}
+.item-img:hover {
+    transform: scale(1.1);
 }
 .item-info-point-img {
     margin-bottom: 11px;
